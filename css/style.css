@@ -1,0 +1,235 @@
+
+body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: 400;
+    color: #212529;
+    background-color: #000000f2;
+  
+
+}
+#loading{
+    inset:0;
+    background-color: #000;
+    z-index:999;
+    position: fixed;
+    display: flex;
+   
+}
+
+ul li{
+    padding:10px;
+    font-size:16px;
+    line-height: 24px;
+    color:#f9f6f6;
+    font-weight: 500;
+    font-family: "Segoe UI Light", sans-serif;
+}
+ul li a{
+    text-decoration: none;
+    font-size:16px;
+    line-height: 24px;
+    color:#f9f6f6;
+    font-weight: 500;
+    font-family: "Segoe UI Light", sans-serif;
+    cursor:grab;
+
+}
+ul li a:hover{
+   color:#f9f6f6;
+}
+.nav-items{
+    width:65%;
+    background-color: #000;
+}
+.icons{
+    width:14%;
+    left:0;
+}
+.logo{
+    width:90%;
+}
+.icons i{
+    font-size: 25px;
+    font-weight: 900;
+    Color:#212529;
+  
+}
+.icons .btn{
+    border:none;
+}
+.social i{
+    font-size: 16px;
+    font-weight: 900;
+    Color:#212529;
+}
+.nav{
+    position: fixed;
+    z-index:9;
+    width:fit-content
+ 
+  
+}
+nav p{
+    font-size: 16px;
+    line-height: 24px;
+    color:#999999;
+    font-weight: 400;
+}
+/* .form{
+    margin: auto;
+    text-align: center;
+} */
+input{
+   
+    text-align: center;
+ padding:10px !important;
+   background-color: transparent !important;
+   border: none !important;
+   border-bottom: 1px solid rgba(255,255,255,.7) !important;
+   border-radius: 0 !important;
+   color: #fff;
+   font-weight: 800;
+}
+
+input:focus{
+    color: #495057;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+input::placeholder{
+    font-size:16px;
+    line-height: 24px;
+    color:#495057;
+    font-weight: 800;
+    font-family: "Segoe UI Light", sans-serif;
+}
+.item{
+    overflow: hidden;
+   
+}
+
+.layer{
+    background-color: #dfcbbf9f;
+
+   
+  width:100%;
+  height: 100%;
+    bottom:-100%;
+  left:0;
+
+
+   /* text-align: center; */
+transition: all .5s linear;
+    position: absolute;
+}
+.item:hover .layer{
+ 
+   bottom:0;
+}
+#itemName{
+    
+    font-size:32px;
+    line-height: 38px;
+    color:#000000;
+    font-weight: 500;
+
+    
+}
+.category p{
+    font-size:32px;
+    line-height: 38px;
+    color:#000000;
+    font-weight: 500;
+    font-family: "Segoe UI Light", sans-serif;
+}
+.category span{
+    font-size:16px;
+    line-height: 24px;
+    color:#000000;
+    font-weight: 800;
+    font-family: "Segoe UI Light", sans-serif;
+}
+.inner-layers{
+    position: fixed;
+    z-index: 8;
+    inset:0;
+    background-color: #0d0d0d;
+}
+.meal{
+    transition: all.5s linear;
+    overflow: hidden;
+}
+.meal:hover .layer{
+ 
+    bottom:0;
+ }
+ .close{
+    right:20%;
+    font-size: 20px;
+    font-weight: 900;
+ }
+ .content-img h1{
+    font-size: 40px;
+    line-height: 48px;
+    color:#ffffff;
+    font-weight: 500;
+    font-family: 'segoe UI Light',sans-serif;
+
+ }
+ .content-caption h2{
+    font-size: 32px;
+    line-height: 38px;
+    color:#ffffff !important;
+    font-weight: 500;
+    font-family: 'segoe UI Light',sans-serif;
+ }
+ .content-caption P{
+    font-size: 16px;
+    line-height: 24px;
+    color:#ffffff;
+    font-weight: 400;
+    font-family: 'segoe UI Light',sans-serif;
+ }
+.content-caption h3{
+    font-size: 28px;
+    line-height: 34px;
+    color:#ffffff;
+    font-weight: 500;
+    font-family: 'segoe UI Light',sans-serif;
+}
+.details{
+    inset: 0;
+    z-index:8;
+    background-color: #0d0d0d;
+   
+}
+.forms input{
+    box-shadow: 0 .5rem 1rem rgba(255,255,255,.1)!important;
+    padding:10px !important;
+
+}
+.submit{
+    color: #dc3545;
+    background-color: transparent;
+    border-color: #dc3545;
+    transition: all .5s linear;
+  
+}
+.submit:hover{
+    color:#ffffff;
+    background-color:#dc3545;
+}
+.wrong{
+    border-radius: 7px;
+    margin-top:5px;
+    padding:20px;
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+.cards{
+    transition: all 1s linear;
+}
+/* #tags li{
+
+} */
